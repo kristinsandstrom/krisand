@@ -1,0 +1,291 @@
+@font-face {
+	font-family: "MyFont1";
+	src: url("fonts/FoundersGroteskMonoLight.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Ortica";
+	src: url("fonts/Ortica-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "OrticaBold";
+	src: url("fonts/Ortica-Bold.otf") format("opentype");
+}
+
+body, html {
+	color:white;
+	background-color:black;
+	cursor:auto;
+	
+	
+	
+}
+
+
+
+
+header {
+  font-family:"MyFont1";
+  color:white;
+  margin-top:0px;
+  display: flex;
+  justify-content: space-around;
+  /*position:-webkit-sticky;
+  position:sticky;*/
+position:-webkit-sticky;
+position:sticky;
+top:10px;
+text-decoration: none;
+
+
+ 
+  /*display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: fixed;
+  z-index: 20;*/
+   }
+   
+   /*
+   
+a:link, a:visited;{
+    
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+
+}  
+
+a:hover{
+    color: #FEE501;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+	
+} 
+
+a:active{
+    color:#FEE501 ;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+	
+}
+   */
+   
+   a:link, a:visited {
+   	color:white;
+   	background-color:transparent;
+   	text-decoration:none;
+   }
+
+   a:hover, a:active {
+   	color:#FEE501;
+   	background-color:transparent;
+   	text-decoration:none;
+	 }
+
+div.info{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	text-decoration: none;
+   }
+  
+   
+   
+h1 {
+ font-family:"Ortica";
+ font-weight:normal;
+ font-size:24px;
+ font-size: 4vw;	
+  color:white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: -webkit-box ;
+  
+   }
+   
+   
+
+
+   
+   
+h2{
+font-family:"MyFont1";
+font-size:16;
+font-size: 2vw;	
+
+	
+}
+
+h3{
+	
+	font-family:"MyFont1";
+	font-size:14;
+	font-size:2vw;
+	color:#A7A8A8;
+	padding-right:50%;
+	
+}
+
+#cvbox{
+	
+	
+}
+
+
+p{
+	font-family:"Ortica";
+	font-size:24px;
+	font-size:2.7vw;
+	width:50%;
+	
+	
+}
+
+#left{
+	font-family:"MyFont1";
+	font-size:18px;
+	font-size:2,5vw;
+	color:gray;
+	display:flex;
+	justify-content:flex-end;
+	flex-direction:column;
+	
+	
+}
+
+.image{
+	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+    max-height: 96vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    position: center;
+    z-index: 10;
+	
+}
+
+video{
+    width: 60%;
+     height: auto;
+     margin-bottom: 4vh;
+     margin-top: 4vh;
+	 border:none;
+	 position:center;
+	 display:flex;
+ 	flex-wrap:wrap;
+ 	align-content:center;
+ 	flex-direction:column;
+	
+	
+}
+
+/*
+#line{
+	
+	padding-top:3%;
+	padding-bottom:10%;
+	
+}
+*/
+
+
+
+#line2{
+	
+	padding-left:2%;
+	position:fixed;
+	stroke:dotted;
+
+	
+	
+}
+
+#line3{
+	
+	padding-left:97%;
+	position:fixed;
+	stroke:dotted;
+	
+	
+	
+}
+
+
+#videowrapper{
+	
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	flex-direction:column;
+}
+
+#imagewrapper{
+	
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	flex-direction:column;
+}
+
+#video2{
+	width:300;
+	height:300;
+	
+	
+}
+
+
+#intro{
+	 margin-top:100px;
+	margin-bottom:10%;
+    padding-right: 5vw;
+    padding-left: 5vw; 
+	padding-top:8vw;
+	padding-bottom:5vw;
+
+}
+
+
+div.project{
+    padding-right: 5vw;
+    padding-left: 5vw;
+	padding-bottom:10vw;
+	
+	
+	
+	
+}
+
+
+.grid-container {
+
+  display: grid;
+  
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+ 
+
+  padding: 10px;
+}
+
+.grid-item {
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+   
+#grid{
+	
+ 
+}
+ 

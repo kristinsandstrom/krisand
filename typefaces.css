@@ -1,0 +1,125 @@
+@font-face{
+	font-family: HokusGlitz;
+	src: url("fonts/HokusGlitz-Regular.ttf") format("truetype"); 
+
+}
+
+@font-face{
+	font-family:TyperVariable ;
+	src: url("fonts/TyperVariableGX.ttf") format("truetype"); 
+
+}
+
+@font-face{
+	font-family: CowboySerif;
+	src: url("fonts/Cowboyserif-regular.ttf") format("truetype"); 
+
+}
+
+@font-face{
+	font-family: Ortica;
+	src: url("fonts/Ortica-Light.otf") format("open-type"); 
+
+}
+
+@font-face {
+	font-family: "MyFont1";
+	src: url("fonts/FoundersGroteskMonoLight.otf") format("opentype");
+}
+
+@font-face{
+	font-family: ;
+	src: url(); 
+
+}
+
+body,html {
+	background-color: #E8E9E9;
+	color:black;
+	cursor:auto;
+	
+}
+
+header {
+    font-family:"MyFont1";
+    color:black;
+    margin-top:0px;
+    display: flex;
+    justify-content: space-around;
+    /*position:-webkit-sticky;
+    position:sticky;*/
+  position:-webkit-sticky;
+  position:sticky;
+  top:10px;
+  text-decoration: none;
+}
+a:link, a:visited {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:#FEE501;
+	background-color:transparent;
+	text-decoration:none;
+ }
+
+h1{
+	font-family:"Ortica";
+	font-weight:normal;
+	font-size: 2.5vw;
+	max-font-size:18px;
+	display:flex;
+	padding: 0% 2% 0% 2%;
+	margin:0% 10% 0% 10%;
+	justify-content: space-between;
+	
+}
+
+
+.font{
+	
+	font-size:50px;
+	font-size:5vw;
+	line-height:10px;
+	display:flex;
+	justify-content: flex-start;
+	padding: 2% 2% 2% 2%;
+	border:2px black solid;
+	margin:0% 10% 2% 10%;
+	cursor:text;
+    overflow-x: scroll;
+       overflow-y: hidden;
+       height: 100px;
+	   height:10vw;
+       white-space:nowrap;
+	letter-spacing: 0.3vw;
+	
+	
+}
+
+
+
+#space{
+	height:15vw;
+	padding-top: 5vw;
+}
+
+
+#hokus{
+	font-family:"HokusGlitz";
+	
+}
+
+#typer{
+	font-family: "TyperVariable";
+	font-variation-settings: "wght" 100;
+	font-weight:normal;
+	transition:4s;
+}
+
+#cowboy{
+	font-family:"CowboySerif";
+	
+}
